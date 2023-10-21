@@ -1,2 +1,2 @@
 # simple_shell
-Youssef-idali36
+A simple shell using C programming language.
