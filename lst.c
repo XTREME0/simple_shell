@@ -76,7 +76,7 @@ size_t prt_llst(const list_t *h)
 }
 
 /**
- * nn_ss_w - returns node starting with prefix
+ * n_strt_w - returns node starting with prefix
  * @nn: pointer
  * @prfx: string
  * @c: the next char in prfx
@@ -97,9 +97,9 @@ list_t *n_strt_w(list_t *nn, char *prfx, char c)
 }
 
 /**
- * get_nn_index - gets the index of a node
- * @head: pointer to list head
- * @nn: pointer to the node
+ * gt_nd_i - gets the index
+ * @h: pointer
+ * @nn: node
  *
  * Return: index of nn or -1
  */

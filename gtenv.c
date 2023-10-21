@@ -19,7 +19,7 @@ char **get_environ(info_t *inf)
 /**
  * _unsetenv - delete environment var
  * @inf: Structure info
- * Return: 1 
+ * Return: 1
  * @var: variable
  */
 int _unsetenv(info_t *inf, char *var)

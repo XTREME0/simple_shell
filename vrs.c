@@ -2,7 +2,7 @@
 
 /**
  * is_chn - is_chain
- * @info: info
+ * @inf: info
  * @buf: buffer
  * @p: address
  * Return: 1
@@ -35,13 +35,12 @@ int is_chn(info_t *inf, char *buf, size_t *p)
 }
 
 /**
- * chk_chn - checks we should continue chaining based on last status
- * @info: the parameter struct
- * @buf: the char buffer
- * @p: address of current position in buf
- * @i: starting position in buf
- * @len: length of buf
- *
+ * chk_chn - checks chaining
+ * @inf: info
+ * @buf: buffer
+ * @p: pointer
+ * @i: index
+ * @len: length
  * Return: Void
  */
 void chk_chn(info_t *inf, char *buf, size_t *p, size_t i, size_t len)
@@ -69,10 +68,9 @@ void chk_chn(info_t *inf, char *buf, size_t *p, size_t i, size_t len)
 }
 
 /**
- * rplc_al - replaces an aliases in the tokenized string
- * @info: the parameter struct
- *
- * Return: 1 if replaced, 0 otherwise
+ * rplc_al - replace aliase
+ * @inf: info
+ * Return: 1
  */
 int rplc_al(info_t *inf)
 {
@@ -98,10 +96,9 @@ int rplc_al(info_t *inf)
 }
 
 /**
- * rplc_str - replaces vars in the tokenized string
- * @info: the parameter struct
- *
- * Return: 1 if replaced, 0 otherwise
+ * rplc_vrs - replace var
+ * @inf: info
+ * Return: 1
  */
 int rplc_vrs(info_t *inf)
 {
@@ -138,11 +135,10 @@ int rplc_vrs(info_t *inf)
 }
 
 /**
- * rplc_str - replaces string
- * @old: address of old string
- * @new: new string
- *
- * Return: 1 if replaced, 0 otherwise
+ * rplc_str - replace string
+ * @old: old string
+ * @new: nw string
+ * Return: 1
  */
 int rplc_str(char **old, char *new)
 {

@@ -28,8 +28,8 @@ int m_exit(info_t *inf)
 }
 
 /**
- * cd - cd command
- * @inf: Structure info 
+ * _cd - cd command
+ * @inf: Structure info
  * Return: Always 0
  */
 int _cd(info_t *inf)

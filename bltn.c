@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _myhst - displays the history
+ * myhst - displays the history
  * @inf: Struct info
  *  Return: Always 0
  */

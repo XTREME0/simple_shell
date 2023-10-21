@@ -20,7 +20,7 @@ void i_puts(char *str)
 
 /**
  * i_putchar - print char
- * @c: char
+ * @chr: char
  * Return: 1 On success.
  */
 int i_putchar(char chr)

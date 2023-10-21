@@ -33,7 +33,7 @@ void ffree(char **pp)
 
 /**
  * _realloc - realloc
- * @ptr: pointer
+ * @pt: pointer
  * @o_size: size of old block
  * @n_size: size of new block
  * Return: pointer
